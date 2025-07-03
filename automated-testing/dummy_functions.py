@@ -53,12 +53,12 @@ def fetch_both_endpoints() -> (
     """
     Fetch data from two endpoints and return their JSON responses as a tuple.
     """
-    response1 = requests.get("https://api.example.com/first")
-    response1.raise_for_status()
-    data1 = response1.json()
-
     response2 = requests.get("https://api.example.com/second")
     response2.raise_for_status()
     data2 = response2.json()
+
+    response1 = requests.get("https://api.example.com/first")
+    response1.raise_for_status()
+    data1 = response1.json()
 
     return data1, data2
