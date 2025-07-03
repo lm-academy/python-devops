@@ -15,7 +15,7 @@
 ## Time-Based Rotation with `TimedRotatingFileHandler`
 
 - `TimedRotatingFileHandler` rotates based on elapsed time (`when`, `interval`).
-- Common `when` values: `'S'`, `'M'`, `'H'`, `'D'`, `'midnight'`, `'W0'`-`'W6'`
+- Common `when` values (case insensitive): `'S'`, `'M'`, `'H'`, `'D'`, `'midnight'`, `'W0'`-`'W6'`
   - **`'S'`** – Rotate every _N_ **seconds** (as given by `interval`), useful for very short-lived scripts or testing.
   - **`'M'`** – Rotate every _N_ **minutes**, good for high-volume services where hourly isn’t fine-grained enough.
   - **`'H'`** – Rotate every _N_ **hours**, often used for long-running daemons that batch logs hourly.
