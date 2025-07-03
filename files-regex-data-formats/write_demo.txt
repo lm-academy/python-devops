@@ -1,0 +1,4 @@
+user,ip,role
+alice,10.0.0.0,admin
+bob,10.0.0.1,dev
+charlie,10.0.02,audit
