@@ -8,12 +8,16 @@
   {
     "service": "cache",
     "port": 6379,
-    "connection_pool": 5,
-    "enabled": true
+    "connection_pool": 5
   },
   {
     "service": "api",
     "port": 8080,
+    "connection_pool": 3,
+    "enabled": true
+  },
+  {
+    "port": 5000,
     "connection_pool": 3,
     "enabled": true
   }
