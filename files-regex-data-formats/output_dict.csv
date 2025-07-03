@@ -1,0 +1,3 @@
+host,port,tags,status
+web01,80,undefined,running
+db02,undefined,"prod,finance",maintenance
