@@ -1,0 +1,6 @@
+[project]
+name = "devops_utils"
+version = "0.1.0"
+
+[project.scripts]
+check_host = "devops_utils.network_utils.check_host:main"
