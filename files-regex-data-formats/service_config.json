@@ -1,0 +1,20 @@
+[
+  {
+    "service": "database",
+    "port": 5432,
+    "connection_pool": 10,
+    "enabled": true
+  },
+  {
+    "service": "cache",
+    "port": 6379,
+    "connection_pool": 5,
+    "enabled": true
+  },
+  {
+    "service": "api",
+    "port": 8080,
+    "connection_pool": 3,
+    "enabled": true
+  }
+]
