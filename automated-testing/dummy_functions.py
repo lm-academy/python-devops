@@ -8,6 +8,7 @@ def get_user_data(user_id: str | int) -> dict[str, str | int]:
     response = requests.get(
         f"https://api.example.com/users/{user_id}"
     )
+    print(f"Status code: {response.status_code}")
     response.raise_for_status()
     return response.json()
 
