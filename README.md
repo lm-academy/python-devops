@@ -4,6 +4,8 @@ This repository contains all the code and materials for my Python for DevOps: Ma
 
 ### ➡️ Course link (with a big discount 🙂): [https://www.lauromueller.com/courses/python-devops](https://www.lauromueller.com/courses/python-devops)
 
+**Note:** You can find the code for the section about CI/CD for Python in the following repository: [https://github.com/lm-academy/python-devops-cicd-project](https://github.com/lm-academy/python-devops-cicd-project)
+
 **Check my other courses:**
 
 - 👉 [The Definitive Helm Course: From Beginner to Master](https://www.lauromueller.com/courses/definitive-helm-course)
